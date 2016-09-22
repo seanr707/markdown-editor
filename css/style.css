@@ -1,0 +1,80 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css);
+body {
+  font-family: Roboto;
+  padding-bottom: 70px;
+  background: #eeeeee;
+}
+
+.page-title {
+  margin: 12px auto 0 auto;
+  text-align: center;
+  text-shadow: 0 0 2px black;
+}
+@media screen and (max-width: 450px) {
+  .page-title {
+    font-size: 20px;
+    margin-top: 15px;
+  }
+}
+
+.nav-top {
+  background-color: #d41500;
+  border-color: #d41500;
+  color: white;
+  box-shadow: 0 1px 1px black;
+}
+
+.nav-bottom {
+  box-shadow: 0 -1px 1px;
+  padding: 10px;
+}
+
+.upload {
+  position: absolute;
+  visibility: hidden;
+  size: 0 0;
+}
+
+.responsive-width {
+  width: 250px;
+  height: 400px;
+}
+@media screen and (min-width: 1000px) {
+  .responsive-width {
+    width: 300px;
+    height: 500px;
+  }
+}
+@media screen and (max-width: 999px) {
+  .responsive-width {
+    width: 200px;
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .small-hide {
+    visibility: hidden;
+  }
+}
+
+.bottom-buttons-container {
+  width: 273px;
+  margin: 3px auto;
+}
+.bottom-buttons-container .button-container {
+  width: 75px;
+  display: inline;
+  margin: 0 8px;
+}
+.bottom-buttons-container .btn {
+  width: 75px;
+}
+
+#text-input {
+  border-radius: 5px;
+  padding: 5px;
+  height: 400px;
+  width: 100%;
+}
